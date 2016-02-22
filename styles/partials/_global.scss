@@ -1,0 +1,48 @@
+html {
+	font-size: 62.5%;
+}
+
+.wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+body {
+	background: $brightBlue;
+}
+
+.flexColumn {
+	display: flex;
+	flex-direction: column;
+}
+
+.flexRow {
+	display: flex;
+	flex-direction: row;
+}
+
+h1 {
+	font-family: "Poppins";
+	font-weight: 600;
+	line-height: 8rem;
+	letter-spacing: -1rem;
+	color: $palestYellow;
+	font-size: 100px;
+	text-transform: uppercase;
+	span {
+		color: $brightYellow;
+		text-transform: uppercase;
+	}
+}
+
+p {
+	color: white;
+	font-family: "Poppins";
+	font-size: 3rem;
+	text-align: center;
+}
+
+p.bottomText {
+	font-size: 2.5rem;
+	padding-top: 1%;
+}

@@ -1,0 +1,25 @@
+.quoteContainer {
+	width: 60%;
+	margin: 0 auto;
+	background-size: cover;
+	display: flex;
+}
+
+
+.textWrapper {
+	padding: 20% 10%;
+	margin: auto;
+
+	h2 {
+		color: white;
+		font-family: "Poppins";
+		font-weight: 300;
+		font-size: 3rem;
+	}
+	p {
+		color: white;
+		font-family: "Poppins";
+		font-size: 1.5rem;
+		text-align: right;
+	}
+}

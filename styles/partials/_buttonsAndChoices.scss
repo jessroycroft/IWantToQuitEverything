@@ -1,0 +1,57 @@
+button {
+	-webkit-appearance: none;
+	padding: 20px;
+	border: none;
+	background: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+input[type="radio"] {
+	display: none;
+	&:checked + label p {
+	border: 4px solid $pink;
+	}
+}
+
+label p {
+	font-size: 2rem;
+	margin: 10px;
+	color: $blue;
+	font-family: "Poppins";
+	letter-spacing: 0.3rem; 
+	background: $palestYellow;
+	border-radius: 10px;
+	padding: 10px;
+	&:hover {
+		cursor: pointer;
+		background: white;
+	}
+}
+
+label p.fullSize {
+		width: 100%;
+	}
+
+.quoteChoices {
+	padding-top: 3%;
+}
+
+.buttonWrapper {
+	padding: 10% 0 10% 0;
+	display: flex;
+}
+#submit {
+	width: 80%;
+	margin: 0 auto;
+	background: $brightYellow;
+	color: $pink;
+	font-weight: 600;
+	letter-spacing: 0.5rem;
+	transition: all 0.7s ease;
+	&:hover {
+		background: $pink;
+		color: $brightYellow;
+	}
+}
